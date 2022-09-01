@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="27" viewBox="0 0 24 27">
+  <defs>
+    <filter id="_3" x="6.5" y="0" width="13" height="27" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="num03" transform="translate(-945 -1568.5)">
+    <g id="グループ_61" data-name="グループ 61">
+      <rect id="長方形_157" data-name="長方形 157" width="24" height="24" transform="translate(945 1570)" fill="#2c7b8c"/>
+      <path id="パス_1474" data-name="パス 1474" d="M0,0H24L0,24Z" transform="translate(945 1570)" fill="#58b5c9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 945, 1568.5)" filter="url(#_3)">
+      <text id="_3-2" data-name="3" transform="translate(8 20.5)" fill="#fff" font-size="16" font-family="NotoSansJP-Medium, Noto Sans JP Medium" font-weight="500"><tspan x="0" y="0">3</tspan></text>
+    </g>
+  </g>
+</svg>

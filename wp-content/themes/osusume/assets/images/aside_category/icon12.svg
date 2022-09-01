@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="icon12" transform="translate(-853 -572)">
+    <rect id="長方形_53" data-name="長方形 53" width="70" height="70" transform="translate(853 572)" fill="none"/>
+    <g id="グループ_17" data-name="グループ 17" transform="translate(137 -82.595)">
+      <rect id="長方形_66" data-name="長方形 66" width="45.5" height="35.123" rx="5" transform="translate(728 669.714)" fill="#fff"/>
+      <g id="グループ_15" data-name="グループ 15" transform="translate(738.266 667.595)">
+        <path id="パス_438" data-name="パス 438" d="M2316.862,667.836v29.512" transform="translate(-2304.815 -667.836)" fill="none" stroke="#535353" stroke-linecap="round" stroke-width="3"/>
+        <path id="パス_439" data-name="パス 439" d="M2297.156,729.165l12.127-14.3,14.3,14.3" transform="translate(-2297.156 -684.736)" fill="none" stroke="#535353" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="長方形_56" data-name="長方形 56" transform="translate(728 669.714)" fill="#fff" stroke="#535353" stroke-width="3">
+        <rect width="45.5" height="35.123" rx="5" stroke="none"/>
+        <rect x="1.5" y="1.5" width="42.5" height="32.123" rx="3.5" fill="none"/>
+      </g>
+      <path id="パス_440" data-name="パス 440" d="M44,1.361H42.716A3.329,3.329,0,0,1,46.009,4.54V30.716c0,1.718-.293,3.186-2.011,3.186l-39.2.941c-1.718,0,5.754-.333,5.754-2.051,0,0,31.347-2.694,31.357-2.93C41.995,27.484,44,1.361,44,1.361Z" transform="translate(726.31 669.714)" fill="#d9d9d9"/>
+      <g id="長方形_60" data-name="長方形 60" transform="translate(728 669.714)" fill="none" stroke="#535353" stroke-width="3">
+        <rect width="45.5" height="35.123" rx="5" stroke="none"/>
+        <rect x="1.5" y="1.5" width="42.5" height="32.123" rx="3.5" fill="none"/>
+      </g>
+      <g id="グループ_16" data-name="グループ 16" transform="translate(736.811 682.411)">
+        <path id="長方形_57" data-name="長方形 57" d="M3.991,0h0A3.991,3.991,0,0,1,7.982,3.991V7.184a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.991A3.991,3.991,0,0,1,3.991,0Z" transform="translate(0 7.614)" fill="#ffa2dc"/>
+        <path id="長方形_58" data-name="長方形 58" d="M3.991,0h0A3.991,3.991,0,0,1,7.982,3.991v8.781a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.991A3.991,3.991,0,0,1,3.991,0Z" transform="translate(9.948 2.026)" fill="#ffa2dc"/>
+        <path id="長方形_59" data-name="長方形 59" d="M3.991,0h0A3.991,3.991,0,0,1,7.982,3.991V14.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.991A3.991,3.991,0,0,1,3.991,0Z" transform="translate(19.896 0)" fill="#ff009f"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,196 @@
+@charset 'utf-8';
+@import "compass";
+
+/* ======================= VARIABLE ====== */
+
+$get_img: "../images/";
+
+$size350:  "only screen and (max-width:350px)";
+$size400:  "only screen and (max-width:400px)";
+$size500:  "only screen and (max-width:500px)";
+$size640:  "only screen and (max-width:640px)";
+$size768:  "only screen and (max-width:768px)";
+$size840: "only screen and (max-width:840px)";
+$size960:  "only screen and (max-width:960px)";
+$size1000:  "only screen and (max-width:1000px)";
+$size1024:  "only screen and (max-width:1024px)";
+$size1100:  "only screen and (max-width:1100px)";
+$size1140:  "only screen and (max-width:1140px)";
+$size1200:  "only screen and (max-width:1200px)";
+$size1366:  "only screen and (max-width:1366px)";
+$size1400:  "only screen and (max-width:1400px)";
+$size1440:  "only screen and (max-width:1440px)";
+
+$d_main:#2c7b8c;
+$main:#58b5c9;
+$sub:#92d3df;
+$accent:#e678af;
+$accent_l:#fbbbdb;
+
+$black:#000;
+$l_grey:#d2d2d2;
+$grey:#959595;
+$d_grey:#535353;
+
+$bg01:#ffebf4;
+$bg02:#f7f9fc;
+$bg03:#f0f4fb;
+$bg04:#f5f5f5;
+$bg05:#DEDEDE;
+
+$border01:#d2d2d2;
+$border02:#DEDEDE;
+$border03:#f1f1f1;
+
+
+
+@mixin circle($size) {
+  width:$size;
+  height: $size;
+  @include border-radius(50%);
+}
+
+/* placeholder color */
+
+@mixin placeholderColor($color) {
+  &:placeholder-shown {
+      color: $color;
+  }
+  &::-webkit-input-placeholder {
+      color:$color;
+  }
+  &:-moz-placeholder {
+      color:$color;
+      opacity: 1;
+  }
+  &::-moz-placeholder {
+      color:$color;
+      opacity: 1;
+  }
+  &:-ms-input-placeholder {
+      color:$color;
+  }
+}
+
+/* ======================= IMPORT ====== */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "common/_basic.scss";
+@import "common/_header.scss";
+@import "common/_aside.scss";
+@import "common/_footer.scss";
+@import "_top.scss";
+@import "_page.scss";
+@import "_detail.scss";
+
+
+/* ======================= BASE ====== */
+
+*{
+	word-break: break-word;
+  box-sizing: border-box;
+}
+
+html,body{
+	margin: 0;
+  height: 100%;
+}
+
+body{
+	min-width: 1080px;
+  @media #{$size960}{
+	  min-width: inherit;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.fm {
+  font-family: "游明朝", YuMincho,"Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+
+.fg {
+  font-family: 'Noto Sans JP',"游ゴシック", YuGothic, 'Noto Sans Japanese', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,   Verdana, sans-serif;
+}
+
+.fr{
+	font-family: 'Roboto', sans-serif;
+}
+
+button{
+	cursor: pointer;
+	@extend %common_a_transition;
+	outline: none;
+	padding: 0;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.common_inner{
+	position: relative;
+	max-width: 1080px;
+	width: 100%;
+	margin: 0 auto;
+	&.h100{
+		height: 100%;
+	}
+}
+
+%common_a_transition{
+  @include transition(all 0.3s ease);
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+%common_text_transition{
+  @include transition(all 0.3s ease);
+  &:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+}
+
+.common_pc{
+  display: block;
+  &.height_100{
+	  height: 100%;
+  }
+  @media #{$size960}{
+    display: none;
+  }
+}
+
+.common_sp{
+  display: none;
+  @media #{$size960}{
+    display: block;
+  }
+}
+
+.common_pc_640{
+  display: block;
+  @media #{$size640}{
+    display: none;
+  }
+}
+
+.common_sp_640{
+  display: none;
+  @media #{$size640}{
+    display: block;
+  }
+}
+
+

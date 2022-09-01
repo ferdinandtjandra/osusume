@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="icon03" transform="translate(-606 -484)">
+    <rect id="長方形_41" data-name="長方形 41" width="70" height="70" transform="translate(606 484)" fill="none"/>
+    <rect id="長方形_100" data-name="長方形 100" width="12" height="32" transform="translate(620 504)" fill="#d9d9d9"/>
+    <path id="パス_523" data-name="パス 523" d="M0,0H7V29L0,31.217Z" transform="translate(621 500)" fill="#ffa2dc"/>
+    <path id="パス_522" data-name="パス 522" d="M628.253,504.775h34.018v34.4H625.705s-5.366.367-5.39-4.574,0-29.826,0-29.826.317-5.285,4.639-5.268,3.3,0,3.3,0v29.205h-3.3" fill="none" stroke="#535353" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="グループ_37" data-name="グループ 37" transform="translate(393 234)">
+      <path id="パス_524" data-name="パス 524" d="M3287.539,278.6h12v19.36h-4.3" transform="translate(-3036)" fill="none" stroke="#ffa2dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="パス_525" data-name="パス 525" d="M3292.4,284.231h7" transform="translate(-3036)" fill="none" stroke="#ffa2dc" stroke-linecap="round" stroke-width="2"/>
+      <path id="パス_526" data-name="パス 526" d="M3288.971,284.231h-9.6V298.06h13.375" transform="translate(-3036)" fill="none" stroke="#ffa2dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="パス_527" data-name="パス 527" d="M3287.539,287.364v10.589" transform="translate(-3036)" fill="none" stroke="#ffa2dc" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

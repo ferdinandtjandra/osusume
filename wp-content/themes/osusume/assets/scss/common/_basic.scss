@@ -1,0 +1,103 @@
+/*=================
+     
+    basic.scss
+
+=======================*/
+
+.common_main{
+	padding: 169px 0 0;
+}
+
+/* 余白 */
+
+.mb150{
+	margin: 0 0 150px;
+	@media #{$size960}{
+		margin: 0 0 75px;
+	}
+}
+
+.mb80{
+	margin: 0 0 80px;
+	@media #{$size960}{
+		margin: 0 0 40px;
+	}
+}
+
+.mb60{
+	margin: 0 0 60px;
+	@media #{$size960}{
+		margin: 0 0 30px;
+	}
+}
+
+.mb50{
+	margin: 0 0 50px;
+	@media #{$size960}{
+		margin: 0 0 30px;
+	}
+}
+
+.mb40{
+	margin: 0 0 40px;
+}
+
+.mb35{
+	margin: 0 0 35px;
+}
+
+.mb30{
+	margin: 0 0 30px;
+}
+
+.mb25{
+	margin: 0 0 25px;
+}
+
+.mb20{
+	margin: 0 0 20px;
+}
+
+.mb15{
+	margin: 0 0 15px;
+}
+
+.mb12{
+	margin: 0 0 12px;
+}
+
+.mb10{
+	margin: 0 0 10px;
+}
+
+.mb5{
+	margin: 0 0 5px;
+}
+
+/* ALIGN */
+.align_right{
+	text-align: right;
+}
+.align_center{
+	text-align: center;
+}
+
+/* TEXT WRAP */
+.nowrap{
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
